@@ -18,6 +18,6 @@
     "tests"
   ],
   "dependencies": {
-    "codemirror": "CodeMirror#^5.12.0"
+    "CodeMirror": ">=3.0"
   }
 }
