@@ -1,0 +1,23 @@
+{
+  "name": "liquid-codemirror",
+  "homepage": "https://github.com/carsonreinke/codemirror_liquid_mode",
+  "authors": [
+    "Henning Kiel"
+  ],
+  "description": "A CodeMirror mode for the liquid template language",
+  "main": [
+    "mode/liquid/liquid.js",
+    "mode/liquid/liquid.css"
+  ],
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "codemirror": "CodeMirror#^5.12.0"
+  }
+}
