@@ -328,7 +328,7 @@ CodeMirror.defineMode("liquid", function(config, parserConfig) {
 CodeMirror.defineMIME("application/x-liquid-template", "liquid");
 
 CodeMirror.defineMode("htmlmixedliquid", function(config, parserConfig) {
-  return CodeMirror.overlayParser(CodeMirror.getMode(config, parserConfig.backdrop || "text/html"), CodeMirror.getMode(config, parserConfig.overlay || "application/x-liquid-template"));
+  return CodeMirror.overlayMode(CodeMirror.getMode(config, parserConfig.backdrop || "text/html"), CodeMirror.getMode(config, parserConfig.overlay || "application/x-liquid-template"), false);
 });
 
 // Compatibility with CodeMirror's formatting addon
