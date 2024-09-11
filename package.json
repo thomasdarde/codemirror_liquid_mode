@@ -1,0 +1,8 @@
+{
+  "name": "codemirror_liquid_mode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:thomasdarde/codemirror_liquid_mode.git",
+  "author": "Thomas Darde <thomas@rougecardinal.fr>",
+  "license": "MIT"
+}
